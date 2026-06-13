@@ -1,0 +1,10 @@
+**pycache**/
+.pytest_cache/
+*.pyc
+*.tmp
+*.log
+.DS_Store
+.venv/
+data/
+results/
+backend/static/gradcam/
