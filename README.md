@@ -1,6 +1,12 @@
 # Medical Image Classification for Pneumonia Detection
 
-Academic deep learning project for binary chest X-ray classification: `NORMAL` versus `PNEUMONIA`. The project includes model training and evaluation code, a final selected model, Grad-CAM explainability support, a FastAPI backend, and a lightweight HTML/CSS/JavaScript frontend for demonstration.
+> Deep-learning pneumonia detection from chest X-rays — **EfficientNetB0 at 88.8% accuracy / 0.96 AUC** — with **Grad-CAM explainability** so predictions aren't a black box. Served via a FastAPI inference API and a web demo.
+
+Binary chest X-ray classification (`NORMAL` vs `PNEUMONIA`) covering the full lifecycle: dataset preparation, training and comparison of three architectures, a final selected model, Grad-CAM explainability, a FastAPI backend, and a lightweight web frontend for live demonstration.
+
+**Why it matters:** it demonstrates trustworthy applied ML — rigorous evaluation *and* visual explainability, the two things that make a model deployable in a high-stakes domain.
+
+> 🔗 **Live demo:** _coming soon_ — hosted FastAPI demo with sample X-rays (see deployment notes below).
 
 ## Dataset
 
